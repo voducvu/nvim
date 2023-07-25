@@ -31,7 +31,11 @@ return packer.startup(function(use)
 
 	-- themes
 	use("bluz71/vim-nightfly-colors")
-
+	use("olivercederborg/poimandres.nvim")
+	use("zanglg/nova.nvim")
+	use("Mofiqul/vscode.nvim")
+	use("sonph/onehalf")
+	use("folke/tokyonight.nvim")
 	-- window sizing
 	use("szw/vim-maximizer")
 	use("christoomey/vim-tmux-navigator")
@@ -46,7 +50,7 @@ return packer.startup(function(use)
 	-- file explorer
 	use("nvim-tree/nvim-tree.lua")
 	use("kyazdani42/nvim-web-devicons")
-
+	use("fgheng/winbar.nvim")
 	-- status bar
 	use("nvim-lualine/lualine.nvim")
 
